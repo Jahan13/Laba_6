@@ -1,4 +1,5 @@
 package bsu.rfct.java.ovezova.laba7;
+
 import java.awt.BorderLayout;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
@@ -9,15 +10,19 @@ import javax.swing.JFrame;
 import javax.swing.JMenu;
 import javax.swing.JMenuBar;
 import javax.swing.JMenuItem;
+
 @SuppressWarnings("serial")
+
 public class MainFrame extends JFrame {
     // Константы, задающие размер окна приложения, если оно
 // не распахнуто на весь экран
     private static final int WIDTH = 700;
     private static final int HEIGHT = 500;
+
     private JMenuItem pauseMenuItem;
     private JMenuItem resumeMenuItem;
     private JCheckBoxMenuItem minimazeMenuItem;
+
     // Поле, по которому прыгают мячи
     private Field field = new Field();
 

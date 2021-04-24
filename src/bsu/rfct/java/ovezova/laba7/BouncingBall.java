@@ -4,11 +4,13 @@ import java.awt.*;
 import java.awt.geom.Ellipse2D;
 
 public class BouncingBall implements Runnable{
+
     private static final int MAX_RADIUS = 40;
     // Минимальный радиус, который может иметь мяч
     private static final int MIN_RADIUS = 1;
     // Максимальная скорость, с которой может летать мяч
     private static final int MAX_SPEED = 15;
+
     private Field field;
     private int radius;
     private Color color;
@@ -25,7 +27,6 @@ public class BouncingBall implements Runnable{
 
     public void setMinimaze(boolean s) {
         enableMinimaze = s;
-
     }
 
     // Конструктор класса BouncingBall
